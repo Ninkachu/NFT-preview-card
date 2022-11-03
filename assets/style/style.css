@@ -3,6 +3,8 @@ body{
     box-sizing:border-box;
     margin:0;
     padding:0;
+    font-family: 'Outfit', sans-serif;
+
     
 }
 
@@ -14,7 +16,7 @@ main{
     overflow: hidden;
     padding:24px;
     box-shadow:0px 25px 50px;
-    margin:500px 750px;
+    margin:570px 750px;
     gap:24px;
      
 }
@@ -27,16 +29,16 @@ img{
 
  h1{
     color:white;
-    width:300px;
-    line-height:20px;
-    font-size:22px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
 }
 
 .p-one{
     color: #8BACD9;
-    width:300px;
-    line-height:26px;
-    font-size:19px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
 }
 .info{
     display:flex;
@@ -48,8 +50,8 @@ img{
 .info span{
     color:#00FFF8;
     line-height:20px;
-    font-size:16px;
-    width:75px;
+    font-weight: 600;
+    font-size: 16px;
     margin-right:110px;
     
 }
@@ -60,9 +62,9 @@ img{
 }
 .p-two{
    color: #8BACD9;
-   line-height:20px;
-   font-size:16px;
-   width:70px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 20px;
    gap:7px;
    
 }
@@ -87,8 +89,8 @@ img{
 
 .p-three{
    font-weight: 400;
-   font-size: 16px;
-   line-height: 20px;
+   font-size: 20px;
+   line-height: 22px;
    color: #8BACD9;
    margin-right:5px;
    margin-left:16px;
@@ -96,7 +98,7 @@ img{
 
 .p-four{
  font-weight: 400;
- font-size: 16px;
- line-height: 20px;
+ font-size: 18px;
+ line-height: 25px;
  color: #FFFFFF;
 }
